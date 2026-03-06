@@ -73,9 +73,9 @@ Les commandes doivent etre fournies dans un fichier separe `COMMANDS.md`.
 
 ## Questions de reflexion
 
-- Quelle est la difference de taille entre `1.0.0` et `2.0.0` ?
-- Pourquoi `pytest` ne doit pas rester dans l'image de production ?
-- Comment recuperer explicitement la version `1.0.0` depuis Docker Hub ?
+- Quelle est la difference de taille entre `1.0.0` et `2.0.0` ? Il y a 8Mb de différence de taille
+- Pourquoi `pytest` ne doit pas rester dans l'image de production ? Comme c'est pour les tests elle peut contenir des informations que les utilisateurs n'ont pas besoin
+- Comment recuperer explicitement la version `1.0.0` depuis Docker Hub ? docker pull pseudo:1.0.0
 
 ## Criteres de validation
 
