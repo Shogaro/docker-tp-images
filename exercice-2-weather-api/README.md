@@ -40,9 +40,9 @@ Les commandes doivent etre fournies dans un fichier separe `COMMANDS.md`.
 
 ## Questions de reflexion
 
-- Pourquoi copier `package.json` avant le reste du code ?
-- Quelle difference de taille entre `node:18` et `node:18-alpine` ?
-- A quoi sert le tag `latest` ?
+- Pourquoi copier `package.json` avant le reste du code ? Pour le garder le cache et alléger l'image
+- Quelle difference de taille entre `node:18` et `node:18-alpine` ? Elle est deux fois plus petite
+- A quoi sert le tag `latest` ? A dire quelle version est la dernière
 
 ## Criteres de validation
 
